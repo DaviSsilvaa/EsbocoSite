@@ -1,0 +1,187 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+  }
+  
+
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #8e67a4;
+    font-weight: bold;
+    position: relative;
+    left: -400px;
+    margin: 30px;
+  }
+  
+  .auth-buttons {
+    display: flex;
+  }
+  
+  .signup-button {
+    margin: 0 10px;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    color: #199be1;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 700;
+    position: relative;
+    right: 190px;
+  }
+  
+  .signup-button:hover {
+    background-color: #ffffff;
+  
+  }
+.login-button{
+  margin: 0 10px;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    color: #8629b8;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    position: relative;
+    right: 200px;
+}
+
+.login-button:hover {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+.logoempresa{
+  margin-left: 110px;
+}
+
+.Conteudos{
+  color: #5500b0;
+  margin-left: 130px;
+  line-height: 1.5;
+  font-size: 26px;
+  margin-top: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ImagenBack{
+  position: relative;
+  right: -1600px;
+  margin-top: -300px;
+}
+
+.IconBotao{
+  position: relative;
+  left: 250px;
+}
+
+.Text{
+  color: #8629b8;
+  margin-top: -750px;
+  margin-left: 130px;
+  letter-spacing: 1px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.button-discover{
+  padding: 10px 30px;
+  background: linear-gradient(to right, #6578f5, #24c8ff); /* Degradê de tons de azul claro */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-left: 130px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+
+.button-discover:hover{
+  background: linear-gradient(to right, #00BFFF, #87CEEB);
+}
+
+.line{
+  position: relative;
+  top: 970px;
+  left: 1200px;
+}
+
+.Get-started{
+  
+  color: #5500b0;
+  font-size: 30px;
+  position: relative;
+  top: 1000px;
+  left: 1200px;
+  letter-spacing: 3px;
+}
+
+.Pack-image{
+  position: relative;
+  top: 1000px;
+  left: 600px;
+  letter-spacing: 20px;
+}
+
+.Pack-Content{
+  color: #5500b0;
+  
+  margin: 0 10px;
+  position: relative;
+  top: 1000px;
+
+}
+
+.element1{
+  margin: 0 10px;
+  position: relative;
+  left: 670px;
+  top: 20px;
+ 
+}
+
+.element2{
+  margin: 0 10px;
+  position: relative;
+  left: 1000px;
+  top: -36px;
+  
+}
+
+.element3{
+  margin: 0 10px;
+  position: relative;
+  left: 1350px;
+  top: -90px;
+  
+}
+
+.element4{
+  margin: 0 10px;
+  position: relative;
+  left: 1680px;
+  top: -145px;
+}
